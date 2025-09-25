@@ -27,6 +27,7 @@ The outputs can be used for forward modeling of time-ordered data (TOD), respons
 │   ├── math_library.f90
 ├── HFI_ScanBeam_143-1a_R2.00.fits   # Example Planck HFI beam (used to generate grid.txt for real-beam code)
 ├── map.dat                          # Example HEALPix input map (used in elliptical convolution demo)
+├── Cl.dat                           # Cℓ (power spectrum) used to generate HEALPix maps
 ├── yearly_scan_frequency.f90        # Program to compute scan hit-count map (how many times each pixel is scanned)
 ├── python/
 │   ├── gen_cmb_maps.py            # Generate 1000 CMB maps from CAMB Cl
